@@ -15,7 +15,7 @@ const fibFunctions = {
     },
 
     fib: function (num, fibNums){
-        fibNums = fibNums || {};
+        fibNums = fibNums || [];
 
         //If already computed then return the stored result
         if( fibNums[num] ) return fibNums[num];
