@@ -1,9 +1,9 @@
-import {fibEvenSum, fibPopulate} from './fibFunctions.js';
+import {fibFunctions} from './fibFunctions.js';
 
 
     let limit = 4000000;
 
-    let fibNums = fibPopulate(limit);
+    let fibNums = fibFunctions.fibPopulate(limit);
 
-    console.log(fibEvenSum(fibNums));
+    console.log(fibFunctions.fibEvenSum(fibNums));
 
